@@ -7,7 +7,7 @@ from . import lpnGoogleInteraction
 from . import lpnLogger
 from .lpnLogger import LoggerModule
 
-# appel curl https://crm.temlab.fr/lpn_contact_module/lpn_contact_module/pushMyContactsToGoogle
+# appel curl https://myPersonalOdooInstance.com/lpn_contact_module/lpn_contact_module/pushMyContactsToGoogle
 class lpnContactModule(http.Controller):
     @http.route('/lpn_contact_module/lpn_contact_module/pushMyContactsToGoogle', auth='public')
     def index(self, **kw):
@@ -49,7 +49,7 @@ class lpnContactModule(http.Controller):
         lpnLogger_instance.logger.info("lpnContactModule.callHTTP.pushMyContactsToGoogle ==> Push to Google DONE" )
         return output
 
-# appel curl https://crm.temlab.fr/lpn_contact_module/lpn_contact_module/shownContactsInCSV
+# appel curl https://myPersonalOdooInstance.com/lpn_contact_module/lpn_contact_module/shownContactsInCSV
 class lpnContactModule(http.Controller):
     @http.route('/lpn_contact_module/lpn_contact_module/shownContactsInCSV', auth='public')
     def index(self, **kw):
@@ -81,7 +81,7 @@ class lpnContactModule(http.Controller):
         output += '</ul>'
         return output
 
-# appel curl https://crm.temlab.fr/lpn_contact_module/lpn_contact_module
+# appel curl https://myPersonalOdooInstance.com/lpn_contact_module/lpn_contact_module
 class lpnContactModule(http.Controller):
     @http.route('/lpn_contact_module/lpn_contact_module', auth='public')
     def index(self, **kw):
@@ -165,7 +165,7 @@ class lpnContactModule(http.Controller):
             output += '</li>'
 
         output += '</ul>'
-        output += "<h1> Fin de la liste des contact issu de res.partner - AU REVOIR TEMLab </h1>"
+        output += "<h1> Fin de la liste des contact issu de res.partner - AU REVOIR myPersonalOdooInstance.com </h1>"
         return output
 
     @http.route('/lpn_contact_module/lpn_contact_module/objects', auth='public')
