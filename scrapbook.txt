@@ -1,0 +1,20 @@
+module localised under : /root/odoo_dir/custom/lpn_contact_module
+
+Module should be installed under custom (rename accordingly)
+  then  through the odoo application interface
+  		 view all
+  		 refresh view
+  		 find & install module
+  		 
+Install the various python solutions required 
+ex of commands
+	pip3 install -t lib google-auth google-auth-httplib2 google-api-python-client --upgrade
+     pip show google-auth
+     pip3 show google-auth
+     pip3 install --upgrade google-api-python-client
+	pip install --upgrade google-auth
+
+
+Functions are calable through sttp request (browser or curl)
+https://crm.temlab.fr/lpn_contact_module/lpn_contact_module/pushMyContactsToGoogle
+https://crm.temlab.fr/lpn_contact_module/lpn_contact_module/shownContactsInCSV
