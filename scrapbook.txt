@@ -8,11 +8,11 @@ Module should be installed under custom (rename accordingly)
   		 
 Install the various python solutions required 
 ex of commands
-	pip3 install -t lib google-auth google-auth-httplib2 google-api-python-client --upgrade
+     pip3 install -t lib google-auth google-auth-httplib2 google-api-python-client --upgrade
      pip show google-auth
      pip3 show google-auth
      pip3 install --upgrade google-api-python-client
-	pip install --upgrade google-auth
+     pip install --upgrade google-auth
 
 
 Functions are calable through sttp request (browser or curl)
