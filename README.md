@@ -7,7 +7,7 @@ this module is called through a trigger (curl or web page), such as :
 
 https//myOddoInstance/odoo_module/called_function
 
-some isntallation details can be found in the Scrapbook. 
+some installation details can be found in the Scrapbook. 
 
 Need a complete python, odoo, google python libs as pre-reqs
 
