@@ -16,5 +16,5 @@ ex of commands
 
 
 Functions are calable through sttp request (browser or curl)
-https://crm.temlab.fr/lpn_contact_module/lpn_contact_module/pushMyContactsToGoogle
-https://crm.temlab.fr/lpn_contact_module/lpn_contact_module/shownContactsInCSV
+https://myOdoo.fr/lpn_contact_module/lpn_contact_module/pushMyContactsToGoogle
+https://myOddo.fr/lpn_contact_module/lpn_contact_module/shownContactsInCSV
